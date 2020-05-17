@@ -13,7 +13,7 @@ class SettingFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        viewGroup = inflater.inflate(R.layout.fragment_vod, container, false) as ViewGroup
+        viewGroup = inflater.inflate(R.layout.fragment_setting, container, false) as ViewGroup
         return viewGroup
     }
 }
